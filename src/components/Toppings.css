@@ -1,0 +1,38 @@
+.edit-icon {
+  color: #626262;
+  cursor: pointer;
+}
+.del-icon {
+  color: #f6685b;
+  cursor: pointer;
+}
+.add-icon {
+  color: #5da2f6;
+  cursor: pointer;
+}
+.add-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add-toppings {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 10px;
+}
+.edit-icon:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+.del-icon:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+.add-icon:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+@media only screen and (max-width: 760px) {
+  .add-toppings {
+    display: none;
+  }
+}
